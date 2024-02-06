@@ -1,8 +1,16 @@
-import logo from "./logo.svg";
 import "./App.css";
+import CustomButton from "./components/CustomButton";
 
 function App() {
-  return <div className="App"></div>;
+  function onButtonClick() {
+    console.log("button Clicked");
+  }
+
+  return (
+    <div className="App">
+      <CustomButton text="hello" onClick={onButtonClick} />
+    </div>
+  );
 }
 
 export default App;
