@@ -1,7 +1,8 @@
 import React from "react";
+import CustomButton from "../components/CustomButton";
 
 function HomeScreen() {
-  return <div>HomeScreen</div>;
+  return <div></div>;
 }
 
 export default HomeScreen;
