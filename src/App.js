@@ -1,5 +1,6 @@
 import "./App.css";
 import CustomButton from "./components/CustomButton";
+import HomeScreen from "./screens/HomeScreen";
 
 function App() {
   function onButtonClick() {
@@ -8,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <CustomButton text="hello" onClick={onButtonClick} />
+      <HomeScreen />
     </div>
   );
 }
