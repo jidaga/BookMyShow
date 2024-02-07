@@ -6,10 +6,17 @@
     border-radius: 6px;
     width: 100%;
     outline-width: 0;
-
+    border: 10;
 }
 
 
 body {
     font-family: 'Times New Roman', Times, serif;
+} 
+.App{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
 }
